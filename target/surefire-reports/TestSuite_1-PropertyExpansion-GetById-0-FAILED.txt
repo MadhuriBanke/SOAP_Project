@@ -1,0 +1,32 @@
+Status: FAILED
+Time Taken: 457
+Size: 0
+Timestamp: Fri Aug 07 10:26:32 IST 2020
+TestStep: GetById
+
+----------------- Messages ------------------------------
+org.apache.http.NoHttpResponseException: The target server failed to respond
+
+----------------- Properties ------------------------------
+Endpoint: http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   \r
+   <soap:Header/>
+   \r
+   <soap:Body>
+      \r
+      <def:customerCustomerRepositoryV1GetByIdRequest>
+         \r
+         <customerId>4735</customerId>
+         \r
+      </def:customerCustomerRepositoryV1GetByIdRequest>
+      \r
+   </soap:Body>
+   \r
+</soap:Envelope>
+
+---------------- Response --------------------------
+- missing response / garbage collected -
